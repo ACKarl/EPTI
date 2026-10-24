@@ -790,7 +790,7 @@ def push_to_github(team_repo, allowed_prefixes, message, creds, owner="ACKarl", 
         return False
     for pre in allowed_prefixes:
         os.makedirs(os.path.join(team_repo, pre), exist_ok=True)
-    rc, out = _git(team_repo, "add", "--", *allowed_prefixes)
+    rc, out = _git(team_repo, "add", "--sparse" , "--", *allowed_prefixes)
     if rc != 0:
         raise RuntimeError("git add failed (is team_repo a git clone, and are these folders in the sparse checkout?):\n" + out)
     rc, names = _git(team_repo, "diff", "--cached", "--name-status")
