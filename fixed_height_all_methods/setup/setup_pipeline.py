@@ -55,7 +55,10 @@ def gpu_attached():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stage", type=int, required=True, choices=[1, 2, 3])
-    ap.add_argument("--clock-rate", type=float, required=True)
+    # Kept as text on purpose: it must match the notebook's CLOCK_RATE exactly ("4" stays "4", "0.1" stays "0.1"),
+    # because the folder names are built from it. Converting to a float would turn 4 into 4.0 and the folders
+    # of the wrong name would be pulled.
+    ap.add_argument("--clock-rate", type=str, required=True)
     ap.add_argument("--base", default=os.getcwd(), help="folder holding Phyloformer/ and team_repo/")
     a = ap.parse_args()
 
@@ -63,7 +66,12 @@ def main():
     pf = os.path.join(base, "Phyloformer")
     team = os.path.join(base, "team_repo")
     log = os.path.join(base, "setup_log.txt")
-    rate = a.clock_rate
+    rate = a.clock_rate.strip()
+    try:
+        float(rate)
+    except ValueError:
+        print(f"[FAIL] --clock-rate must be a number, got {rate!r}")
+        sys.exit(1)
     print(f"Setup for Stage {a.stage}: {STAGE_NAMES[a.stage]}, clock rate {rate}")
 
     # --- runtime check first, so a wrong runtime is caught before any time is spent ---
