@@ -399,3 +399,5 @@ Cherry,250,1250,phyloformer,Phyloformer,6_250_tips,"error: Expected size for fir
 Cherry,250,1250,phyloformer,Phyloformer,7_250_tips,"error: Expected size for first two dimensions of batch2 tensor to be: [64, 20] but got: [64, 250]."
 Cherry,250,1250,phyloformer,Phyloformer,8_250_tips,"error: Expected size for first two dimensions of batch2 tensor to be: [64, 20] but got: [64, 250]."
 Cherry,250,1250,phyloformer,Phyloformer,9_250_tips,"error: Expected size for first two dimensions of batch2 tensor to be: [64, 20] but got: [64, 250]."
+LG,150,100,phyloformer,Phyloformer,ALL,no saved sequences
+Cherry,150,100,phyloformer,Phyloformer,ALL,no saved sequences
