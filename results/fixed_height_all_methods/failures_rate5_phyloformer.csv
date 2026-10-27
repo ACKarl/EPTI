@@ -1,14 +1,4 @@
 model,tree_size,seq_length,stage,method,tree_id,reason
-LG,100,250,phyloformer,Phyloformer,ALL,no saved sequences
-Cherry,100,250,phyloformer,Phyloformer,ALL,no saved sequences
-LG,100,500,phyloformer,Phyloformer,ALL,no saved sequences
-Cherry,100,500,phyloformer,Phyloformer,ALL,no saved sequences
-LG,100,750,phyloformer,Phyloformer,ALL,no saved sequences
-Cherry,100,750,phyloformer,Phyloformer,ALL,no saved sequences
-LG,100,1000,phyloformer,Phyloformer,ALL,no saved sequences
-Cherry,100,1000,phyloformer,Phyloformer,ALL,no saved sequences
-LG,100,1250,phyloformer,Phyloformer,ALL,no saved sequences
-Cherry,100,1250,phyloformer,Phyloformer,ALL,no saved sequences
 LG,150,250,phyloformer,Phyloformer,ALL,no saved sequences
 Cherry,150,250,phyloformer,Phyloformer,ALL,no saved sequences
 LG,150,500,phyloformer,Phyloformer,ALL,no saved sequences
@@ -39,3 +29,83 @@ LG,250,1000,phyloformer,Phyloformer,ALL,no saved sequences
 Cherry,250,1000,phyloformer,Phyloformer,ALL,no saved sequences
 LG,250,1250,phyloformer,Phyloformer,ALL,no saved sequences
 Cherry,250,1250,phyloformer,Phyloformer,ALL,no saved sequences
+LG,100,1000,phyloformer,Phyloformer,0_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,10_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,11_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,12_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,13_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,14_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,15_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,16_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,17_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,18_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,19_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,1_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,2_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,3_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,4_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,5_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,6_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,7_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,8_100_tips,out of GPU memory
+LG,100,1000,phyloformer,Phyloformer,9_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,0_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,10_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,11_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,12_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,13_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,14_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,15_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,16_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,17_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,18_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,19_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,1_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,2_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,3_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,4_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,5_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,6_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,7_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,8_100_tips,out of GPU memory
+Cherry,100,1000,phyloformer,Phyloformer,9_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,0_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,10_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,11_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,12_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,13_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,14_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,15_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,16_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,17_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,18_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,19_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,1_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,2_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,3_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,4_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,5_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,6_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,7_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,8_100_tips,out of GPU memory
+LG,100,1250,phyloformer,Phyloformer,9_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,0_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,10_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,11_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,12_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,13_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,14_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,15_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,16_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,17_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,18_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,19_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,1_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,2_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,3_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,4_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,5_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,6_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,7_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,8_100_tips,out of GPU memory
+Cherry,100,1250,phyloformer,Phyloformer,9_100_tips,out of GPU memory
