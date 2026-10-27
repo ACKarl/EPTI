@@ -33,6 +33,7 @@ import tempfile
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
+from urllib.parse import quote
 
 import pandas as pd
 
@@ -809,7 +810,12 @@ def push_to_github(team_repo, allowed_prefixes, message, creds, owner="ACKarl", 
     rc, out = _git(team_repo, "commit", "-m", message)
     if rc != 0:
         raise RuntimeError("git commit failed:\n" + out)
-    url = remote_url or f"https://{creds['username']}:{creds['token']}@github.com/{owner}/{repo}.git"
+
+    username = quote(creds["username"].strip(), safe="")
+    token = quote(creds["token"].strip(), safe="")
+
+    url = remote_url or f"https://{username}:{token}@github.com/{owner}/{repo}.git"
+                     
     for attempt in range(1, retries + 1):
         rc, out = _git(team_repo, "pull", "--no-rebase", "--no-edit", url, "main", creds=creds)
         if rc != 0:
