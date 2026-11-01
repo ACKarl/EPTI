@@ -1,0 +1,5 @@
+model,tree_size,seq_length,stage,method,tree_id,reason
+Cherry,50,750,baselines,FastTree,3_50_tips,"exit code -6: at * (eigeninv %*% fB)
+# End of R block
+FastTree: /usr2/people/mprice/Genomics/html/fasttree/FastTree.c:5406: PairLogLk: Assertion `lkAB > 0' failed.
+"
